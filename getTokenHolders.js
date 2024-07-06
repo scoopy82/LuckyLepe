@@ -1,5 +1,6 @@
 const url = `https://mainnet.helius-rpc.com/?api-key=27eba405-f9dd-4912-9e0d-9cb086bb6422`;
 const fs = require("fs");
+const fetch = require('node-fetch');
 
 const findHolders = async () => {
   let page = 1;
